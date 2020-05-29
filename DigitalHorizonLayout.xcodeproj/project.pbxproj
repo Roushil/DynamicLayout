@@ -13,6 +13,7 @@
 		2B4EE1042481040E00A323A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EE1022481040E00A323A7 /* Main.storyboard */; };
 		2B4EE1062481041300A323A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EE1052481041300A323A7 /* Assets.xcassets */; };
 		2B4EE1092481041300A323A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EE1072481041300A323A7 /* LaunchScreen.storyboard */; };
+		2B4EE11124813C9300A323A7 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EE11024813C9300A323A7 /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B4EE1052481041300A323A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4EE1082481041300A323A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B4EE10A2481041300A323A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4EE11024813C9300A323A7 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2B4EE0FB2481040E00A323A7 /* DigitalHorizonLayout */ = {
 			isa = PBXGroup;
 			children = (
+				2B4EE11224813CA700A323A7 /* Extension */,
 				2B4EE0FC2481040E00A323A7 /* AppDelegate.swift */,
 				2B4EE0FE2481040E00A323A7 /* SceneDelegate.swift */,
 				2B4EE1002481040E00A323A7 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				2B4EE10A2481041300A323A7 /* Info.plist */,
 			);
 			path = DigitalHorizonLayout;
+			sourceTree = "<group>";
+		};
+		2B4EE11224813CA700A323A7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B4EE11024813C9300A323A7 /* UIExtensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				2B4EE1012481040E00A323A7 /* ViewController.swift in Sources */,
 				2B4EE0FD2481040E00A323A7 /* AppDelegate.swift in Sources */,
 				2B4EE0FF2481040E00A323A7 /* SceneDelegate.swift in Sources */,
+				2B4EE11124813C9300A323A7 /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
